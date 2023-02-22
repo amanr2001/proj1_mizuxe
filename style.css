@@ -10,6 +10,9 @@
   min-height: 500px;
 }
 
+#authors img {
+  margin-top: -50px;
+}
 #authors .card:hover {
   background: lightblue;
 }
