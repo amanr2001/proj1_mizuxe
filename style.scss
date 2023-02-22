@@ -1,5 +1,6 @@
 $dark-overlay:rgba(178, 195, 233, 0.7);
 $back: lightblue;
+$bg-card:skyblue;
 
 
 #main{
@@ -29,4 +30,11 @@ $back: lightblue;
 
 footer{
     background-color: rgb(23, 159, 159);
+}
+
+#smart{
+    .one{
+background-color:$bg-card ;
+
+    }
 }
