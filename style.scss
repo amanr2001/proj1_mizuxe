@@ -1,0 +1,31 @@
+$dark-overlay:rgba(178, 195, 233, 0.7);
+$back: lightblue;
+
+
+#main{
+    
+    background-image: url('https://images.pexels.com/photos/346529/pexels-photo-346529.jpeg?auto=compress&cs=tinysrgb&w=1600');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 500px;
+    .back{
+        background-color: $dark-overlay;
+    }
+
+    
+}
+
+
+#authors{
+
+    .card:hover{
+   
+        background:$back;
+
+    }
+}
+
+footer{
+    background-color: rgb(23, 159, 159);
+}
